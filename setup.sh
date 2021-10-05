@@ -1,6 +1,6 @@
 # Download and extract
 echo -e "\033[1;92mDownloading Bootstrap Gzip\033[0m"
-# curl -lO http://mirror.cse.iitk.ac.in/archlinux/iso/2021.10.01/archlinux-bootstrap-2021.10.01-x86_64.tar.gz
+curl -lO http://mirror.cse.iitk.ac.in/archlinux/iso/2021.10.01/archlinux-bootstrap-2021.10.01-x86_64.tar.gz
 echo -e "\033[1;92mExtracting Bootstrap Gzip\033[0m"
 tar xzf ./archlinux-bootstrap-*-x86_64.tar.gz
 
