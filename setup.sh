@@ -6,7 +6,7 @@ tar xzf ./archlinux-bootstrap-*-x86_64.tar.gz
 
 # Update mirrorlist for Arch Linux
 echo -e "\033[1;92mUpdating Mirror List\033[0m"
-sed -i 's/#S/S/g' ./root.x86_64/etc/pacman.d/mirrorlisti
+sed -i 's/#S/S/g' ./root.x86_64/etc/pacman.d/mirrorlist
 # Mounting stuff
 echo -e "\033[1;92mRunning mount --bind on ./root.x86_64\033[0m"
 mount --bind ./root.x86_64 ./root.x86_64
