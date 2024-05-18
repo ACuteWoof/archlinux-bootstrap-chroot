@@ -1,8 +1,8 @@
 # Download and extract
 echo -e "\033[1;92mDownloading Bootstrap Gzip\033[0m"
-curl -lO http://mirror.cse.iitk.ac.in/archlinux/iso/2021.10.01/archlinux-bootstrap-2021.10.01-x86_64.tar.gz
+curl -lO https://geo.mirror.pkgbuild.com/iso/2024.05.01/archlinux-bootstrap-x86_64.tar.zst
 echo -e "\033[1;92mExtracting Bootstrap Gzip\033[0m"
-tar xzf ./archlinux-bootstrap-*-x86_64.tar.gz
+tar -I zstd -xvf ./archlinux-bootstrap-*-x86_64.tar*
 
 # Update mirrorlist for Arch Linux
 echo -e "\033[1;92mUpdating Mirror List\033[0m"
