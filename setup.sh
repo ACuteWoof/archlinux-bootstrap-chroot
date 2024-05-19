@@ -2,7 +2,7 @@
 echo -e "\033[1;92mDownloading Bootstrap Gzip\033[0m"
 curl -lO https://geo.mirror.pkgbuild.com/iso/2024.05.01/archlinux-bootstrap-x86_64.tar.zst
 echo -e "\033[1;92mExtracting Bootstrap Gzip\033[0m"
-tar -I zstd -xvf ./archlinux-bootstrap-*-x86_64.tar*
+tar -I zstd -xvf ./archlinux-bootstrap-x86_64.tar.zst
 
 # Update mirrorlist for Arch Linux
 echo -e "\033[1;92mUpdating Mirror List\033[0m"
